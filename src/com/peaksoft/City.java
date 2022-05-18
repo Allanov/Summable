@@ -4,7 +4,7 @@ public class City implements Summable{
     private int population;
     private String name;
 
-    public City(int population, String name) {
+    public City(String name, int population) {
         this.population = population;
         this.name = name;
     }
